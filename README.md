@@ -1,180 +1,115 @@
-The assignment specifically requires these ten sections:
-1. Project overview
-2. Problem statement
-3. Technologies used
-4. Dataset information
-5. Installation steps
-6. Required dependencies
-7. How to train the model
-8. How to perform prediction
-9. How to run the application
-10. Sample input/output
+# 🎫 Customer Support Ticket Classification System
 
-Here is a ready-to-use README draft.
+### AI/ML-Powered Customer Support Ticket Classification Using NLP and Machine Learning
 
-## TECHNICAL PROJECT REPORT
+An intelligent customer support ticket classification application that automatically categorizes customer requests based on their textual descriptions using Natural Language Processing (NLP) and Machine Learning.
 
-# Customer Support Ticket Classification System Using Machine Learning
+Built using Python, TF-IDF, Logistic Regression, Multinomial Naive Bayes and Streamlit, the system predicts ticket categories, displays model confidence scores and provides predefined suggested customer responses.
 
-## 1. Problem Understanding
+---
 
-Customer support departments receive numerous requests through emails, chat systems and other communication channels. These requests need to be categorized so that they can be directed to the appropriate support team.
+## 📌 Project Overview
 
-Manual classification can consume time and resources.
+Customer support teams receive numerous requests through emails, chats and other communication channels. Manually categorizing these requests can be time-consuming and inefficient.
 
-The objective of this project is to develop an AI/ML-based system that automatically predicts the category of a customer support ticket based on its textual description.
+This project aims to automate the ticket classification process using supervised machine learning techniques.
 
-The system classifies tickets into five categories:
+The application analyzes customer ticket descriptions and predicts the most appropriate category.
 
-1. Login Issue
-2. Application Error
-3. Report
-4. Account Update
-5. Performance
+## ✨ Key Features
 
-## 2. Dataset Description
+- **Automated Ticket Classification:** Automatically categorizes customer support requests.
+- **Text Preprocessing:** Cleans and normalizes ticket descriptions.
+- **TF-IDF Vectorization:** Converts textual descriptions into numerical features.
+- **Multiple ML Algorithms:** Implements Logistic Regression and Multinomial Naive Bayes.
+- **Model Evaluation:** Evaluates models using Accuracy, Precision, Recall, F1-score and Confusion Matrix.
+- **Real-Time Prediction:** Classifies newly submitted ticket descriptions.
+- **Confidence Score:** Displays the predicted class probability.
+- **Suggested Responses:** Provides predefined customer responses based on the predicted category.
+- **Interactive Web Interface:** Provides a user-friendly application built with Streamlit.
 
-A synthetic customer support ticket dataset was generated using Python and Pandas.
+## 📂 Supported Ticket Categories
 
-### Dataset details
+The system currently supports five customer support categories:
 
-| Attribute | Value |
+| Category | Description |
+|---|---|
+| Login Issue | Problems related to login and password access |
+| Application Error | Application crashes and software errors |
+| Report | Requests related to reports and data exports |
+| Account Update | Changes to registered account information |
+| Performance | Slow loading and application performance issues |
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| Pandas | Data manipulation |
+| NumPy | Numerical operations |
+| Matplotlib | Data visualization |
+| Seaborn | Statistical visualization |
+| Scikit-learn | Machine learning implementation |
+| TF-IDF | Text feature extraction |
+| Logistic Regression | Classification algorithm |
+| Multinomial Naive Bayes | Classification algorithm |
+| Streamlit | Web application interface |
+| Joblib | Model serialization and loading |
+
+## 📊 Dataset Information
+
+The project uses a synthetically generated customer support ticket dataset.
+
+| Dataset Attribute | Details |
 |---|---|
 | Initial records | 250 |
 | Number of categories | 5 |
 | Initial records per category | 50 |
-| Unique descriptions after cleaning and deduplication | 50 |
-| File format | CSV |
-| Dataset source | Self-generated synthetic dataset |
-
-### Dataset fields
-
-- **ticket_id:** Unique ticket identifier.
-- **ticket_description:** Description of the customer's problem.
-- **category:** Target classification label.
-- **priority:** Ticket priority.
-- **status:** Current ticket status.
-
-The dataset was generated specifically for this assignment and does not contain real customer information.
-
-After removing repeated descriptions, 50 unique records remained, with 10 records in each category.
-
-## 3. Data Preprocessing
-
-Data preprocessing was performed to improve data consistency and prepare ticket descriptions for machine learning.
-
-The following operations were implemented:
-
-### 3.1 Missing Value Handling
-
-Missing values in essential fields such as ticket ID, ticket description and category were removed.
-
-Missing priority and status values were replaced with "Unknown".
-
-### 3.2 Duplicate Removal
-
-Completely duplicated records and duplicate ticket IDs were removed.
-
-Repeated cleaned ticket descriptions were also removed before model training to reduce the risk of identical descriptions appearing in both training and testing datasets.
-
-### 3.3 Text Cleaning
-
-The following text preprocessing techniques were implemented:
-
-- Conversion of text into lowercase.
-- Removal of URLs.
-- Removal of punctuation.
-- Removal of unnecessary whitespace.
-- Normalization of ticket descriptions.
-
-These operations helped maintain consistency in the textual data.
-
-## 4. Exploratory Data Analysis (EDA)
-
-Exploratory Data Analysis was performed using Pandas, Matplotlib and Seaborn.
-
-The following analyses and visualizations were generated:
-
-1. Category distribution.
-2. Priority distribution.
-3. Status distribution.
-4. Category versus priority distribution.
-
-### Key observations
-
-- The initial dataset contained 250 records.
-- Each of the five categories contained 50 records.
-- Low priority tickets: 85.
-- Medium priority tickets: 85.
-- High priority tickets: 80.
-- Open tickets: 85.
-- In Progress tickets: 85.
-- Closed tickets: 80.
-
-The initial dataset had a balanced distribution across categories, priorities and statuses.
-
-After duplicate-description removal, the effective training dataset contained 50 unique descriptions.
-
-## 5. Model Selection
-
-A supervised machine-learning approach was selected for multiclass text classification.
-
-### 5.1 Feature Extraction: TF-IDF
-
-Term Frequency-Inverse Document Frequency (TF-IDF) was used to convert textual ticket descriptions into numerical feature vectors.
-
-TF-IDF assigns importance to words based on their frequency within a document and their distribution across the dataset.
-
-Unigrams and bigrams were considered using:
-
-`TfidfVectorizer(ngram_range=(1, 2))`
-
-### 5.2 Classification Algorithms
-
-Two machine-learning algorithms were implemented.
-
-**A. Logistic Regression**
-
-Logistic Regression estimates the probability of an input belonging to different categories and predicts the category with the highest estimated probability.
-
-It was selected because it is computationally efficient and suitable for text classification using sparse TF-IDF features.
-
-**B. Multinomial Naive Bayes**
-
-Multinomial Naive Bayes is a probabilistic classification algorithm based on Bayes' theorem.
-
-It was selected because it is computationally efficient and commonly used for text classification tasks.
-
-Both algorithms were implemented using Scikit-learn Pipelines combining TF-IDF vectorization and classification.
-
-## 6. Model Training and Testing
-
-The dataset was divided into training and testing subsets using an 80:20 split.
-
-### Training configuration
-
-| Parameter | Value |
-|---|---|
-| Initial dataset records | 250 |
-| Unique descriptions | 50 |
+| Unique descriptions after deduplication | 50 |
 | Training records | 40 |
 | Testing records | 10 |
-| Training percentage | 80% |
-| Testing percentage | 20% |
-| Random state | 42 |
-| Stratification | Category |
+| Dataset format | CSV |
 
-Stratified splitting was used to maintain equal category representation in the training and testing subsets.
+### Dataset Features
 
-Both Logistic Regression and Multinomial Naive Bayes were trained using the training dataset and evaluated using the held-out testing dataset.
+- `ticket_id` – Unique ticket identifier.
+- `ticket_description` – Customer support issue description.
+- `category` – Target classification category.
+- `priority` – Ticket priority.
+- `status` – Current ticket status.
 
-## 7. Model Evaluation and Results
+**Note:** The dataset is synthetically generated for this project and does not contain real customer information.
 
-Both models were evaluated using accuracy, precision, recall and F1-score.
+## ⚙️ Machine Learning Workflow
 
-### 7.1 Performance Comparison
+The project follows the following machine learning pipeline:
 
-The following results were obtained from the actual execution of the training program.
+1. Dataset Collection and Generation
+2. Data Preprocessing and Cleaning
+3. Exploratory Data Analysis (EDA)
+4. TF-IDF Feature Extraction
+5. Machine Learning Model Training
+6. Model Evaluation and Comparison
+7. New Ticket Prediction
+8. Streamlit Web Application Deployment
+
+### Algorithms Implemented
+
+**1. Logistic Regression**
+
+A supervised classification algorithm that estimates class probabilities and predicts the most likely ticket category.
+
+**2. Multinomial Naive Bayes**
+
+A probabilistic classification algorithm based on Bayes' theorem, commonly used for text classification tasks.
+
+Both algorithms are implemented using Scikit-learn Pipelines with TF-IDF vectorization.
+
+## 📈 Model Performance
+
+Both machine learning algorithms were evaluated using a stratified 80:20 train-test split.
+
+### Evaluation Results
 
 | Evaluation Metric | Logistic Regression | Naive Bayes |
 |---|---:|---:|
@@ -183,168 +118,235 @@ The following results were obtained from the actual execution of the training pr
 | Recall (Macro) | 70.00% | 70.00% |
 | F1-score (Macro) | 65.67% | 65.67% |
 
-### 7.2 Interpretation of Results
+Both algorithms achieved identical aggregate evaluation results on the held-out test dataset.
 
-**Accuracy: 70%**
+**Important:** These are preliminary results based on only 50 unique descriptions and 10 testing records. They should not be interpreted as representative of real-world performance.
 
-Both models correctly classified 7 out of 10 testing records.
+## 🖥️ Application Screenshots
 
-**Precision: 63.33%**
+### Exploratory Data Analysis
 
-The macro-averaged precision indicates that the average proportion of correct predictions among predicted examples across the five categories was approximately 63.33%.
+**Category Distribution**
 
-**Recall: 70%**
+![Category Distribution](category_distribution.png)
 
-The macro-averaged recall indicates that the models correctly identified approximately 70% of the actual examples across the five categories.
+**Priority Distribution**
 
-**F1-score: 65.67%**
+![Priority Distribution](priority_distribution.png)
 
-The macro F1-score represents the balance between precision and recall across the five categories.
+**Category vs Priority**
 
-### 7.3 Classification Report
+![Category vs Priority](category_vs_priority.png)
 
-The following class-wise results were obtained from the model evaluation:
+**Status Distribution**
 
-| Category | Precision | Recall | F1-score | Support |
-|---|---:|---:|---:|---:|
-| Account Update | 1.00 | 0.50 | 0.67 | 2 |
-| Application Error | 0.50 | 1.00 | 0.67 | 2 |
-| Login Issue | 1.00 | 1.00 | 1.00 | 2 |
-| Performance | 0.00 | 0.00 | 0.00 | 2 |
-| Report | 0.67 | 1.00 | 0.80 | 2 |
-| **Macro Average** | **0.63** | **0.70** | **0.63** | **10** |
+![Status Distribution](status_distribution.png)
 
-Note: The rounded macro F1-score in the classification report is 0.63, while the separately printed F1-score is 0.6567. The latter is the value reported by the training program's `f1_score` calculation.
+### Model Evaluation
 
-### 7.4 Confusion Matrix
+**Confusion Matrix**
 
-A confusion matrix was generated to visualize the relationship between actual and predicted categories.
+![Confusion Matrix](confusion_matrix.png)
 
-The matrix shows correct classifications along the diagonal and incorrect classifications outside the diagonal.
+### Web Application
 
-**[Insert screenshots/confusion_matrix.png here]**
+Run the Streamlit application to interact with the ticket classification system.
 
-### 7.5 Model Selection
+## 🚀 Installation and Setup
 
-Both algorithms achieved identical evaluation results:
+Follow these steps to run the project locally.
 
-- Accuracy: 70%.
-- Macro Precision: 63.33%.
-- Macro Recall: 70%.
-- Macro F1-score: 65.67%.
+### 1. Clone the Repository
 
-Therefore, neither algorithm demonstrated superior predictive performance on this particular test set.
+```bash
+git clone https://github.com/ayan2dj/Customer-Support-Ticket-Classification-System.git
+```
 
-The implementation uses Logistic Regression as the selected model when the F1-scores are tied because it appears first in the model dictionary.
+### 2. Navigate to the Project Directory
 
-## 8. New Ticket Prediction
+```bash
+cd Customer-Support-Ticket-Classification-System
+```
 
-The trained classification system was tested using five new ticket descriptions that were not part of the training records.
+### 3. Create a Virtual Environment
 
-### Actual prediction results
+```bash
+python -m venv venv
+```
 
-| No. | Test Input | Expected Category | Predicted Category | Confidence |
-|---|---|---|---|---:|
-| 1 | My sign-in credentials are not being accepted. | Login Issue | Login Issue | 22.63% |
-| 2 | The software crashes whenever I open settings. | Application Error | Application Error | 27.88% |
-| 3 | I need an export of last month's revenue. | Report | Report | 25.74% |
-| 4 | Please change the email linked to my profile. | Account Update | Account Update | 30.18% |
-| 5 | The dashboard takes several minutes to respond. | Performance | Performance | 26.71% |
+Activate the virtual environment on Windows:
 
-### Prediction Analysis
+```bash
+venv\Scripts\activate
+```
 
-All five test descriptions were classified into their expected categories.
+### 4. Install Dependencies
 
-The predicted confidence scores ranged from 22.63% to 30.18%.
+Make sure the dependency file is named `requirements.txt`.
 
-Although the predicted categories were correct, the confidence scores were relatively low. This indicates that the model does not strongly distinguish the selected categories for these examples.
+```bash
+pip install -r requirements.txt
+```
 
-These predictions demonstrate basic classification functionality but do not establish reliable real-world performance.
+### 5. Run Data Preprocessing
 
-**[Insert screenshots/prediction.png here]**
+```bash
+python preprocessing.py
+```
 
-## 9. Simple User Interface
+### 6. Perform Exploratory Data Analysis
 
-A web-based interface was developed using Streamlit.
+```bash
+python eda.py
+```
 
-The application allows users to enter customer support ticket descriptions and receive automated classification results.
+### 7. Train and Evaluate the Models
 
-### Main features
+```bash
+python train.py
+```
 
-- Customer ticket description input.
-- Predict Category button.
-- Predicted ticket category.
-- Model confidence percentage.
-- Progress bar for confidence visualization.
-- Suggested customer response.
+This step trains both algorithms, compares their performance and saves the selected model.
 
-The application uses the saved machine-learning pipeline to make predictions without retraining the model for every request.
+### 8. Test New Predictions
 
-The suggested responses are generated using predefined rule-based messages associated with each category.
+```bash
+python test_predictions.py
+```
 
-**[Insert screenshots/web_interface.png here]**
+### 9. Launch the Web Application
 
-## 10. Limitations
+```bash
+streamlit run app.py
+```
 
-The current implementation has the following limitations:
+Open the local application in your browser:
 
-1. The dataset is synthetically generated rather than collected from real customer interactions.
-2. Only 50 unique descriptions remain after duplicate removal.
-3. The testing dataset contains only 10 records, making the evaluation statistically limited.
-4. The system supports only five predefined ticket categories.
-5. Similar or ambiguous ticket descriptions may result in incorrect classifications.
-6. The model's estimated confidence scores are relatively low and have not been calibrated.
-7. Suggested customer responses are predefined and may not fully resolve every customer issue.
+```text
+http://localhost:8501
+```
 
-## 11. Future Improvements
+## 🧪 Sample Prediction
 
-The system can be improved in several ways:
+**Sample Input:**
 
-- Increase the dataset size using diverse real-world customer support examples.
+```text
+I cannot log in to my account because
+my password reset is not working.
+```
+
+**Expected Output:**
+
+```text
+Predicted Category: Login Issue
+
+Model Confidence: Model-dependent
+
+Suggested Response:
+
+Please use the Forgot Password option
+on the login page to reset your password.
+If the problem continues, contact our
+support team.
+```
+
+### Additional Prediction Testing
+
+Five new ticket descriptions were tested after model training.
+
+| Test Case | Predicted Category | Confidence |
+|---|---|---:|
+| Sign-in credentials not accepted | Login Issue | 22.63% |
+| Software crashes in settings | Application Error | 27.88% |
+| Export last month's revenue | Report | 25.74% |
+| Change registered email | Account Update | 30.18% |
+| Dashboard responds slowly | Performance | 26.71% |
+
+All five predictions matched their expected categories.
+
+The confidence values represent the model's estimated class probabilities and are not guarantees of prediction correctness.
+
+## 📁 Project Structure
+
+```text
+Customer-Support-Ticket-Classification-System/
+│
+├── data/
+│   ├── tickets.csv
+│   └── cleaned_tickets.csv
+│
+├── src/
+│   ├── __init__.py
+│   ├── preprocessing.py
+│   ├── eda.py
+│   ├── model.py
+│   ├── train.py
+│   ├── predict.py
+│   └── app.py
+│
+├── model/
+│   ├── ticket_classifier.pkl
+│   ├── best_model.txt
+│   └── model_comparison.csv
+│
+├── screenshots/
+│   ├── category_distribution.png
+│   ├── category_vs_priority.png
+│   ├── confusion_matrix.png
+│   ├── priority_distribution.png
+│   └── status_distribution.png
+│
+├── requirements.txt
+├── README.md
+├── report.pdf
+├── .gitignore
+└── test_predictions.py
+```
+
+*The structure above represents the recommended organization of the project files.*
+
+## ⚠️ Limitations
+
+- The dataset is synthetically generated.
+- Only 50 unique descriptions remain after duplicate removal.
+- The testing dataset contains only 10 records.
+- Only five predefined ticket categories are supported.
+- The model's probability estimates have not been calibrated.
+- Suggested responses are predefined rule-based messages.
+
+## 🔮 Future Enhancements
+
+- Expand the dataset with diverse real-world customer support examples.
 - Introduce additional ticket categories.
 - Experiment with advanced NLP and deep-learning models.
-- Improve model performance through cross-validation and hyperparameter tuning.
-- Calibrate probability estimates to improve confidence interpretation.
-- Introduce human feedback for incorrect predictions.
+- Improve classification performance through cross-validation and hyperparameter tuning.
 - Integrate a database for ticket management.
-- Develop a production-ready REST API.
-- Introduce authentication and role-based access.
-- Use Large Language Models for more flexible customer responses.
+- Develop a REST API for external integration.
+- Introduce human feedback for continuous model improvement.
+- Integrate Large Language Models for more flexible customer responses.
 
-## 12. Conclusion
+## 🎯 Project Objective
 
-This project demonstrates the development of a basic machine-learning-based customer support ticket classification system.
+The primary objective of this project is to demonstrate how Natural Language Processing and supervised machine learning can automate customer support ticket categorization and assist support teams in managing incoming customer requests more efficiently.
 
-The system uses text preprocessing, TF-IDF feature extraction and supervised classification algorithms to predict customer support ticket categories.
+## 👨‍💻 Author
 
-Logistic Regression and Multinomial Naive Bayes were implemented and compared using standard evaluation metrics.
+**Ayan Das**
 
-Both models achieved 70% accuracy and a macro F1-score of 65.67% on the small held-out test dataset.
+B.Tech – Computer Science and Engineering
 
-The system was also tested with five new ticket descriptions, and all five were assigned their expected categories.
+GitHub: [ayan2dj](https://github.com/ayan2dj)
 
-A Streamlit-based web interface was developed to allow users to submit ticket descriptions and view predicted categories, confidence scores and suggested responses.
+LinkedIn: [Ayan Das](https://www.linkedin.com/in/ayan-das-470835268/)
 
-The project provides practical experience in Python programming, data processing, natural language processing, machine learning, model evaluation and application development.
+## 📄 Technical Documentation
 
-## 13. Tools and Technologies
+Refer to the project technical report for detailed information about dataset preparation, preprocessing, model implementation, evaluation results, limitations and future improvements.
 
-- Python 3
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- TF-IDF
-- Logistic Regression
-- Multinomial Naive Bayes
-- Streamlit
-- Joblib
+## 🤖 AI Tools Disclosure
 
-## 14. AI Tools Disclosure
+AI tools were used for conceptual explanations, debugging assistance, implementation guidance and documentation preparation. The implementation and results were reviewed during project development.
 
-AI tools were used for conceptual explanations, debugging assistance, implementation guidance and documentation preparation.
+---
 
-The implementation and generated results were reviewed and tested during project development.
-
-The developer is responsible for understanding and explaining the submitted code and implementation decisions.
+**If you find this project useful, consider giving the repository a ⭐!**
