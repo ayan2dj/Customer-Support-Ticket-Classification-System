@@ -1,0 +1,251 @@
+ticket_id,ticket_description,category,priority,status,cleaned_description
+T001,I cannot log in to my account.,Login Issue,Low,Open,i cannot log in to my account
+T002,My password reset link is not working please.,Login Issue,Medium,In Progress,my password reset link is not working please
+T003,"Currently, the system says my username or password is incorrect.",Login Issue,High,Closed,currently the system says my username or password is incorrect
+T004,Please assist: i am locked out after several failed login attempts.,Login Issue,Low,Open,please assist i am locked out after several failed login attempts
+T005,The one-time password is not arriving.,Login Issue,Medium,In Progress,the onetime password is not arriving
+T006,I cannot access the application after changing my password.,Login Issue,High,Closed,i cannot access the application after changing my password
+T007,The sign-in page keeps rejecting my credentials please.,Login Issue,Low,Open,the signin page keeps rejecting my credentials please
+T008,My account login fails even with the correct password.,Login Issue,Medium,In Progress,my account login fails even with the correct password
+T009,Please assist: i forgot my password and need help recovering access.,Login Issue,High,Closed,please assist i forgot my password and need help recovering access
+T010,The authentication page keeps loading without signing me in.,Login Issue,Low,Open,the authentication page keeps loading without signing me in
+T011,I cannot log in to my account.,Login Issue,Medium,In Progress,i cannot log in to my account
+T012,My password reset link is not working please.,Login Issue,High,Closed,my password reset link is not working please
+T013,"Currently, the system says my username or password is incorrect.",Login Issue,Low,Open,currently the system says my username or password is incorrect
+T014,Please assist: i am locked out after several failed login attempts.,Login Issue,Medium,In Progress,please assist i am locked out after several failed login attempts
+T015,The one-time password is not arriving.,Login Issue,High,Closed,the onetime password is not arriving
+T016,I cannot access the application after changing my password.,Login Issue,Low,Open,i cannot access the application after changing my password
+T017,The sign-in page keeps rejecting my credentials please.,Login Issue,Medium,In Progress,the signin page keeps rejecting my credentials please
+T018,My account login fails even with the correct password.,Login Issue,High,Closed,my account login fails even with the correct password
+T019,Please assist: i forgot my password and need help recovering access.,Login Issue,Low,Open,please assist i forgot my password and need help recovering access
+T020,The authentication page keeps loading without signing me in.,Login Issue,Medium,In Progress,the authentication page keeps loading without signing me in
+T021,I cannot log in to my account.,Login Issue,High,Closed,i cannot log in to my account
+T022,My password reset link is not working please.,Login Issue,Low,Open,my password reset link is not working please
+T023,"Currently, the system says my username or password is incorrect.",Login Issue,Medium,In Progress,currently the system says my username or password is incorrect
+T024,Please assist: i am locked out after several failed login attempts.,Login Issue,High,Closed,please assist i am locked out after several failed login attempts
+T025,The one-time password is not arriving.,Login Issue,Low,Open,the onetime password is not arriving
+T026,I cannot access the application after changing my password.,Login Issue,Medium,In Progress,i cannot access the application after changing my password
+T027,The sign-in page keeps rejecting my credentials please.,Login Issue,High,Closed,the signin page keeps rejecting my credentials please
+T028,My account login fails even with the correct password.,Login Issue,Low,Open,my account login fails even with the correct password
+T029,Please assist: i forgot my password and need help recovering access.,Login Issue,Medium,In Progress,please assist i forgot my password and need help recovering access
+T030,The authentication page keeps loading without signing me in.,Login Issue,High,Closed,the authentication page keeps loading without signing me in
+T031,I cannot log in to my account.,Login Issue,Low,Open,i cannot log in to my account
+T032,My password reset link is not working please.,Login Issue,Medium,In Progress,my password reset link is not working please
+T033,"Currently, the system says my username or password is incorrect.",Login Issue,High,Closed,currently the system says my username or password is incorrect
+T034,Please assist: i am locked out after several failed login attempts.,Login Issue,Low,Open,please assist i am locked out after several failed login attempts
+T035,The one-time password is not arriving.,Login Issue,Medium,In Progress,the onetime password is not arriving
+T036,I cannot access the application after changing my password.,Login Issue,High,Closed,i cannot access the application after changing my password
+T037,The sign-in page keeps rejecting my credentials please.,Login Issue,Low,Open,the signin page keeps rejecting my credentials please
+T038,My account login fails even with the correct password.,Login Issue,Medium,In Progress,my account login fails even with the correct password
+T039,Please assist: i forgot my password and need help recovering access.,Login Issue,High,Closed,please assist i forgot my password and need help recovering access
+T040,The authentication page keeps loading without signing me in.,Login Issue,Low,Open,the authentication page keeps loading without signing me in
+T041,I cannot log in to my account.,Login Issue,Medium,In Progress,i cannot log in to my account
+T042,My password reset link is not working please.,Login Issue,High,Closed,my password reset link is not working please
+T043,"Currently, the system says my username or password is incorrect.",Login Issue,Low,Open,currently the system says my username or password is incorrect
+T044,Please assist: i am locked out after several failed login attempts.,Login Issue,Medium,In Progress,please assist i am locked out after several failed login attempts
+T045,The one-time password is not arriving.,Login Issue,High,Closed,the onetime password is not arriving
+T046,I cannot access the application after changing my password.,Login Issue,Low,Open,i cannot access the application after changing my password
+T047,The sign-in page keeps rejecting my credentials please.,Login Issue,Medium,In Progress,the signin page keeps rejecting my credentials please
+T048,My account login fails even with the correct password.,Login Issue,High,Closed,my account login fails even with the correct password
+T049,Please assist: i forgot my password and need help recovering access.,Login Issue,Low,Open,please assist i forgot my password and need help recovering access
+T050,The authentication page keeps loading without signing me in.,Login Issue,Medium,In Progress,the authentication page keeps loading without signing me in
+T051,The application crashes when I try to save a record.,Application Error,Low,Open,the application crashes when i try to save a record
+T052,"Hello, I receive an error message when opening the dashboard please.",Application Error,Medium,In Progress,hello i receive an error message when opening the dashboard please
+T053,"Currently, the submit button produces a server error.",Application Error,High,Closed,currently the submit button produces a server error
+T054,Please assist: the application closes unexpectedly during use.,Application Error,Low,Open,please assist the application closes unexpectedly during use
+T055,A blank screen appears after I select a menu option.,Application Error,Medium,In Progress,a blank screen appears after i select a menu option
+T056,I cannot upload a file because the application returns an error.,Application Error,High,Closed,i cannot upload a file because the application returns an error
+T057,The page displays an unexpected exception please.,Application Error,Low,Open,the page displays an unexpected exception please
+T058,"Currently, the application is not saving the changes I made.",Application Error,Medium,In Progress,currently the application is not saving the changes i made
+T059,Please assist: an error appears whenever I open the customer profile.,Application Error,High,Closed,please assist an error appears whenever i open the customer profile
+T060,The system shows an internal server error on checkout.,Application Error,Low,Open,the system shows an internal server error on checkout
+T061,The application crashes when I try to save a record.,Application Error,Medium,In Progress,the application crashes when i try to save a record
+T062,"Hello, I receive an error message when opening the dashboard please.",Application Error,High,Closed,hello i receive an error message when opening the dashboard please
+T063,"Currently, the submit button produces a server error.",Application Error,Low,Open,currently the submit button produces a server error
+T064,Please assist: the application closes unexpectedly during use.,Application Error,Medium,In Progress,please assist the application closes unexpectedly during use
+T065,A blank screen appears after I select a menu option.,Application Error,High,Closed,a blank screen appears after i select a menu option
+T066,I cannot upload a file because the application returns an error.,Application Error,Low,Open,i cannot upload a file because the application returns an error
+T067,The page displays an unexpected exception please.,Application Error,Medium,In Progress,the page displays an unexpected exception please
+T068,"Currently, the application is not saving the changes I made.",Application Error,High,Closed,currently the application is not saving the changes i made
+T069,Please assist: an error appears whenever I open the customer profile.,Application Error,Low,Open,please assist an error appears whenever i open the customer profile
+T070,The system shows an internal server error on checkout.,Application Error,Medium,In Progress,the system shows an internal server error on checkout
+T071,The application crashes when I try to save a record.,Application Error,High,Closed,the application crashes when i try to save a record
+T072,"Hello, I receive an error message when opening the dashboard please.",Application Error,Low,Open,hello i receive an error message when opening the dashboard please
+T073,"Currently, the submit button produces a server error.",Application Error,Medium,In Progress,currently the submit button produces a server error
+T074,Please assist: the application closes unexpectedly during use.,Application Error,High,Closed,please assist the application closes unexpectedly during use
+T075,A blank screen appears after I select a menu option.,Application Error,Low,Open,a blank screen appears after i select a menu option
+T076,I cannot upload a file because the application returns an error.,Application Error,Medium,In Progress,i cannot upload a file because the application returns an error
+T077,The page displays an unexpected exception please.,Application Error,High,Closed,the page displays an unexpected exception please
+T078,"Currently, the application is not saving the changes I made.",Application Error,Low,Open,currently the application is not saving the changes i made
+T079,Please assist: an error appears whenever I open the customer profile.,Application Error,Medium,In Progress,please assist an error appears whenever i open the customer profile
+T080,The system shows an internal server error on checkout.,Application Error,High,Closed,the system shows an internal server error on checkout
+T081,The application crashes when I try to save a record.,Application Error,Low,Open,the application crashes when i try to save a record
+T082,"Hello, I receive an error message when opening the dashboard please.",Application Error,Medium,In Progress,hello i receive an error message when opening the dashboard please
+T083,"Currently, the submit button produces a server error.",Application Error,High,Closed,currently the submit button produces a server error
+T084,Please assist: the application closes unexpectedly during use.,Application Error,Low,Open,please assist the application closes unexpectedly during use
+T085,A blank screen appears after I select a menu option.,Application Error,Medium,In Progress,a blank screen appears after i select a menu option
+T086,I cannot upload a file because the application returns an error.,Application Error,High,Closed,i cannot upload a file because the application returns an error
+T087,The page displays an unexpected exception please.,Application Error,Low,Open,the page displays an unexpected exception please
+T088,"Currently, the application is not saving the changes I made.",Application Error,Medium,In Progress,currently the application is not saving the changes i made
+T089,Please assist: an error appears whenever I open the customer profile.,Application Error,High,Closed,please assist an error appears whenever i open the customer profile
+T090,The system shows an internal server error on checkout.,Application Error,Low,Open,the system shows an internal server error on checkout
+T091,The application crashes when I try to save a record.,Application Error,Medium,In Progress,the application crashes when i try to save a record
+T092,"Hello, I receive an error message when opening the dashboard please.",Application Error,High,Closed,hello i receive an error message when opening the dashboard please
+T093,"Currently, the submit button produces a server error.",Application Error,Low,Open,currently the submit button produces a server error
+T094,Please assist: the application closes unexpectedly during use.,Application Error,Medium,In Progress,please assist the application closes unexpectedly during use
+T095,A blank screen appears after I select a menu option.,Application Error,High,Closed,a blank screen appears after i select a menu option
+T096,I cannot upload a file because the application returns an error.,Application Error,Low,Open,i cannot upload a file because the application returns an error
+T097,The page displays an unexpected exception please.,Application Error,Medium,In Progress,the page displays an unexpected exception please
+T098,"Currently, the application is not saving the changes I made.",Application Error,High,Closed,currently the application is not saving the changes i made
+T099,Please assist: an error appears whenever I open the customer profile.,Application Error,Low,Open,please assist an error appears whenever i open the customer profile
+T100,The system shows an internal server error on checkout.,Application Error,Medium,In Progress,the system shows an internal server error on checkout
+T101,Please generate the monthly sales report.,Report,Low,Open,please generate the monthly sales report
+T102,"Hello, I need to download the quarterly performance report please.",Report,Medium,In Progress,hello i need to download the quarterly performance report please
+T103,"Currently, the report export is missing some columns.",Report,High,Closed,currently the report export is missing some columns
+T104,Please assist: how can I schedule a weekly report?,Report,Low,Open,please assist how can i schedule a weekly report
+T105,Could you please provide the customer activity report for October.,Report,Medium,In Progress,could you please provide the customer activity report for october
+T106,The PDF report is not being generated.,Report,High,Closed,the pdf report is not being generated
+T107,"Hello, I need a summary of sales by region please.",Report,Low,Open,hello i need a summary of sales by region please
+T108,"Currently, the report download contains no data.",Report,Medium,In Progress,currently the report download contains no data
+T109,Please assist: can you help me create an annual revenue report?,Report,High,Closed,please assist can you help me create an annual revenue report
+T110,I cannot find the option to export the inventory report.,Report,Low,Open,i cannot find the option to export the inventory report
+T111,Please generate the monthly sales report.,Report,Medium,In Progress,please generate the monthly sales report
+T112,"Hello, I need to download the quarterly performance report please.",Report,High,Closed,hello i need to download the quarterly performance report please
+T113,"Currently, the report export is missing some columns.",Report,Low,Open,currently the report export is missing some columns
+T114,Please assist: how can I schedule a weekly report?,Report,Medium,In Progress,please assist how can i schedule a weekly report
+T115,Could you please provide the customer activity report for October.,Report,High,Closed,could you please provide the customer activity report for october
+T116,The PDF report is not being generated.,Report,Low,Open,the pdf report is not being generated
+T117,"Hello, I need a summary of sales by region please.",Report,Medium,In Progress,hello i need a summary of sales by region please
+T118,"Currently, the report download contains no data.",Report,High,Closed,currently the report download contains no data
+T119,Please assist: can you help me create an annual revenue report?,Report,Low,Open,please assist can you help me create an annual revenue report
+T120,I cannot find the option to export the inventory report.,Report,Medium,In Progress,i cannot find the option to export the inventory report
+T121,Please generate the monthly sales report.,Report,High,Closed,please generate the monthly sales report
+T122,"Hello, I need to download the quarterly performance report please.",Report,Low,Open,hello i need to download the quarterly performance report please
+T123,"Currently, the report export is missing some columns.",Report,Medium,In Progress,currently the report export is missing some columns
+T124,Please assist: how can I schedule a weekly report?,Report,High,Closed,please assist how can i schedule a weekly report
+T125,Could you please provide the customer activity report for October.,Report,Low,Open,could you please provide the customer activity report for october
+T126,The PDF report is not being generated.,Report,Medium,In Progress,the pdf report is not being generated
+T127,"Hello, I need a summary of sales by region please.",Report,High,Closed,hello i need a summary of sales by region please
+T128,"Currently, the report download contains no data.",Report,Low,Open,currently the report download contains no data
+T129,Please assist: can you help me create an annual revenue report?,Report,Medium,In Progress,please assist can you help me create an annual revenue report
+T130,I cannot find the option to export the inventory report.,Report,High,Closed,i cannot find the option to export the inventory report
+T131,Please generate the monthly sales report.,Report,Low,Open,please generate the monthly sales report
+T132,"Hello, I need to download the quarterly performance report please.",Report,Medium,In Progress,hello i need to download the quarterly performance report please
+T133,"Currently, the report export is missing some columns.",Report,High,Closed,currently the report export is missing some columns
+T134,Please assist: how can I schedule a weekly report?,Report,Low,Open,please assist how can i schedule a weekly report
+T135,Could you please provide the customer activity report for October.,Report,Medium,In Progress,could you please provide the customer activity report for october
+T136,The PDF report is not being generated.,Report,High,Closed,the pdf report is not being generated
+T137,"Hello, I need a summary of sales by region please.",Report,Low,Open,hello i need a summary of sales by region please
+T138,"Currently, the report download contains no data.",Report,Medium,In Progress,currently the report download contains no data
+T139,Please assist: can you help me create an annual revenue report?,Report,High,Closed,please assist can you help me create an annual revenue report
+T140,I cannot find the option to export the inventory report.,Report,Low,Open,i cannot find the option to export the inventory report
+T141,Please generate the monthly sales report.,Report,Medium,In Progress,please generate the monthly sales report
+T142,"Hello, I need to download the quarterly performance report please.",Report,High,Closed,hello i need to download the quarterly performance report please
+T143,"Currently, the report export is missing some columns.",Report,Low,Open,currently the report export is missing some columns
+T144,Please assist: how can I schedule a weekly report?,Report,Medium,In Progress,please assist how can i schedule a weekly report
+T145,Could you please provide the customer activity report for October.,Report,High,Closed,could you please provide the customer activity report for october
+T146,The PDF report is not being generated.,Report,Low,Open,the pdf report is not being generated
+T147,"Hello, I need a summary of sales by region please.",Report,Medium,In Progress,hello i need a summary of sales by region please
+T148,"Currently, the report download contains no data.",Report,High,Closed,currently the report download contains no data
+T149,Please assist: can you help me create an annual revenue report?,Report,Low,Open,please assist can you help me create an annual revenue report
+T150,I cannot find the option to export the inventory report.,Report,Medium,In Progress,i cannot find the option to export the inventory report
+T151,I need to change my registered mobile number.,Account Update,Low,Open,i need to change my registered mobile number
+T152,Please update the email address on my account please.,Account Update,Medium,In Progress,please update the email address on my account please
+T153,My billing address has changed.,Account Update,High,Closed,my billing address has changed
+T154,Please assist: how can I edit my account contact details?,Account Update,Low,Open,please assist how can i edit my account contact details
+T155,I want to update the company name in my profile.,Account Update,Medium,In Progress,i want to update the company name in my profile
+T156,Please correct the name associated with my account.,Account Update,High,Closed,please correct the name associated with my account
+T157,"Hello, I need to change my notification email please.",Account Update,Low,Open,hello i need to change my notification email please
+T158,My phone number in the profile is outdated.,Account Update,Medium,In Progress,my phone number in the profile is outdated
+T159,Please assist: please update my business address.,Account Update,High,Closed,please assist please update my business address
+T160,I want to modify my account information.,Account Update,Low,Open,i want to modify my account information
+T161,I need to change my registered mobile number.,Account Update,Medium,In Progress,i need to change my registered mobile number
+T162,Please update the email address on my account please.,Account Update,High,Closed,please update the email address on my account please
+T163,My billing address has changed.,Account Update,Low,Open,my billing address has changed
+T164,Please assist: how can I edit my account contact details?,Account Update,Medium,In Progress,please assist how can i edit my account contact details
+T165,I want to update the company name in my profile.,Account Update,High,Closed,i want to update the company name in my profile
+T166,Please correct the name associated with my account.,Account Update,Low,Open,please correct the name associated with my account
+T167,"Hello, I need to change my notification email please.",Account Update,Medium,In Progress,hello i need to change my notification email please
+T168,My phone number in the profile is outdated.,Account Update,High,Closed,my phone number in the profile is outdated
+T169,Please assist: please update my business address.,Account Update,Low,Open,please assist please update my business address
+T170,I want to modify my account information.,Account Update,Medium,In Progress,i want to modify my account information
+T171,I need to change my registered mobile number.,Account Update,High,Closed,i need to change my registered mobile number
+T172,Please update the email address on my account please.,Account Update,Low,Open,please update the email address on my account please
+T173,My billing address has changed.,Account Update,Medium,In Progress,my billing address has changed
+T174,Please assist: how can I edit my account contact details?,Account Update,High,Closed,please assist how can i edit my account contact details
+T175,I want to update the company name in my profile.,Account Update,Low,Open,i want to update the company name in my profile
+T176,Please correct the name associated with my account.,Account Update,Medium,In Progress,please correct the name associated with my account
+T177,"Hello, I need to change my notification email please.",Account Update,High,Closed,hello i need to change my notification email please
+T178,My phone number in the profile is outdated.,Account Update,Low,Open,my phone number in the profile is outdated
+T179,Please assist: please update my business address.,Account Update,Medium,In Progress,please assist please update my business address
+T180,I want to modify my account information.,Account Update,High,Closed,i want to modify my account information
+T181,I need to change my registered mobile number.,Account Update,Low,Open,i need to change my registered mobile number
+T182,Please update the email address on my account please.,Account Update,Medium,In Progress,please update the email address on my account please
+T183,My billing address has changed.,Account Update,High,Closed,my billing address has changed
+T184,Please assist: how can I edit my account contact details?,Account Update,Low,Open,please assist how can i edit my account contact details
+T185,I want to update the company name in my profile.,Account Update,Medium,In Progress,i want to update the company name in my profile
+T186,Please correct the name associated with my account.,Account Update,High,Closed,please correct the name associated with my account
+T187,"Hello, I need to change my notification email please.",Account Update,Low,Open,hello i need to change my notification email please
+T188,My phone number in the profile is outdated.,Account Update,Medium,In Progress,my phone number in the profile is outdated
+T189,Please assist: please update my business address.,Account Update,High,Closed,please assist please update my business address
+T190,I want to modify my account information.,Account Update,Low,Open,i want to modify my account information
+T191,I need to change my registered mobile number.,Account Update,Medium,In Progress,i need to change my registered mobile number
+T192,Please update the email address on my account please.,Account Update,High,Closed,please update the email address on my account please
+T193,My billing address has changed.,Account Update,Low,Open,my billing address has changed
+T194,Please assist: how can I edit my account contact details?,Account Update,Medium,In Progress,please assist how can i edit my account contact details
+T195,I want to update the company name in my profile.,Account Update,High,Closed,i want to update the company name in my profile
+T196,Please correct the name associated with my account.,Account Update,Low,Open,please correct the name associated with my account
+T197,"Hello, I need to change my notification email please.",Account Update,Medium,In Progress,hello i need to change my notification email please
+T198,My phone number in the profile is outdated.,Account Update,High,Closed,my phone number in the profile is outdated
+T199,Please assist: please update my business address.,Account Update,Low,Open,please assist please update my business address
+T200,I want to modify my account information.,Account Update,Medium,In Progress,i want to modify my account information
+T201,The application is very slow today.,Performance,Low,Open,the application is very slow today
+T202,The dashboard takes a long time to load please.,Performance,Medium,In Progress,the dashboard takes a long time to load please
+T203,Pages freeze when I switch between sections.,Performance,High,Closed,pages freeze when i switch between sections
+T204,Please assist: search results are taking too long to appear.,Performance,Low,Open,please assist search results are taking too long to appear
+T205,The application becomes unresponsive during peak hours.,Performance,Medium,In Progress,the application becomes unresponsive during peak hours
+T206,Loading a customer profile takes several minutes.,Performance,High,Closed,loading a customer profile takes several minutes
+T207,The system performance has become sluggish please.,Performance,Low,Open,the system performance has become sluggish please
+T208,There is a delay when submitting forms.,Performance,Medium,In Progress,there is a delay when submitting forms
+T209,Please assist: the website responds slowly on every page.,Performance,High,Closed,please assist the website responds slowly on every page
+T210,The application is lagging when processing large records.,Performance,Low,Open,the application is lagging when processing large records
+T211,The application is very slow today.,Performance,Medium,In Progress,the application is very slow today
+T212,The dashboard takes a long time to load please.,Performance,High,Closed,the dashboard takes a long time to load please
+T213,Pages freeze when I switch between sections.,Performance,Low,Open,pages freeze when i switch between sections
+T214,Please assist: search results are taking too long to appear.,Performance,Medium,In Progress,please assist search results are taking too long to appear
+T215,The application becomes unresponsive during peak hours.,Performance,High,Closed,the application becomes unresponsive during peak hours
+T216,Loading a customer profile takes several minutes.,Performance,Low,Open,loading a customer profile takes several minutes
+T217,The system performance has become sluggish please.,Performance,Medium,In Progress,the system performance has become sluggish please
+T218,There is a delay when submitting forms.,Performance,High,Closed,there is a delay when submitting forms
+T219,Please assist: the website responds slowly on every page.,Performance,Low,Open,please assist the website responds slowly on every page
+T220,The application is lagging when processing large records.,Performance,Medium,In Progress,the application is lagging when processing large records
+T221,The application is very slow today.,Performance,High,Closed,the application is very slow today
+T222,The dashboard takes a long time to load please.,Performance,Low,Open,the dashboard takes a long time to load please
+T223,Pages freeze when I switch between sections.,Performance,Medium,In Progress,pages freeze when i switch between sections
+T224,Please assist: search results are taking too long to appear.,Performance,High,Closed,please assist search results are taking too long to appear
+T225,The application becomes unresponsive during peak hours.,Performance,Low,Open,the application becomes unresponsive during peak hours
+T226,Loading a customer profile takes several minutes.,Performance,Medium,In Progress,loading a customer profile takes several minutes
+T227,The system performance has become sluggish please.,Performance,High,Closed,the system performance has become sluggish please
+T228,There is a delay when submitting forms.,Performance,Low,Open,there is a delay when submitting forms
+T229,Please assist: the website responds slowly on every page.,Performance,Medium,In Progress,please assist the website responds slowly on every page
+T230,The application is lagging when processing large records.,Performance,High,Closed,the application is lagging when processing large records
+T231,The application is very slow today.,Performance,Low,Open,the application is very slow today
+T232,The dashboard takes a long time to load please.,Performance,Medium,In Progress,the dashboard takes a long time to load please
+T233,Pages freeze when I switch between sections.,Performance,High,Closed,pages freeze when i switch between sections
+T234,Please assist: search results are taking too long to appear.,Performance,Low,Open,please assist search results are taking too long to appear
+T235,The application becomes unresponsive during peak hours.,Performance,Medium,In Progress,the application becomes unresponsive during peak hours
+T236,Loading a customer profile takes several minutes.,Performance,High,Closed,loading a customer profile takes several minutes
+T237,The system performance has become sluggish please.,Performance,Low,Open,the system performance has become sluggish please
+T238,There is a delay when submitting forms.,Performance,Medium,In Progress,there is a delay when submitting forms
+T239,Please assist: the website responds slowly on every page.,Performance,High,Closed,please assist the website responds slowly on every page
+T240,The application is lagging when processing large records.,Performance,Low,Open,the application is lagging when processing large records
+T241,The application is very slow today.,Performance,Medium,In Progress,the application is very slow today
+T242,The dashboard takes a long time to load please.,Performance,High,Closed,the dashboard takes a long time to load please
+T243,Pages freeze when I switch between sections.,Performance,Low,Open,pages freeze when i switch between sections
+T244,Please assist: search results are taking too long to appear.,Performance,Medium,In Progress,please assist search results are taking too long to appear
+T245,The application becomes unresponsive during peak hours.,Performance,High,Closed,the application becomes unresponsive during peak hours
+T246,Loading a customer profile takes several minutes.,Performance,Low,Open,loading a customer profile takes several minutes
+T247,The system performance has become sluggish please.,Performance,Medium,In Progress,the system performance has become sluggish please
+T248,There is a delay when submitting forms.,Performance,High,Closed,there is a delay when submitting forms
+T249,Please assist: the website responds slowly on every page.,Performance,Low,Open,please assist the website responds slowly on every page
+T250,The application is lagging when processing large records.,Performance,Medium,In Progress,the application is lagging when processing large records
