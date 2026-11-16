@@ -1,0 +1,15 @@
+### Exploratory Data Analysis (EDA)
+
+Exploratory Data Analysis was performed to understand the distribution and characteristics of the customer support ticket dataset.
+
+The dataset contains 250 records distributed across five categories: Login Issue, Application Error, Report, Account Update and Performance.
+
+**Key observations:**
+
+1. Each category contains 50 tickets, indicating a balanced category distribution.
+2. Low and Medium priority tickets each contain 85 records, while High priority tickets contain 80 records.
+3. The status distribution consists of 85 Open, 85 In Progress and 80 Closed tickets.
+4. Category-wise priority distribution is almost uniform.
+5. No single category dominates the dataset.
+
+**Conclusion:**
