@@ -1,0 +1,26 @@
+### Machine Learning Model
+
+A supervised machine-learning approach was selected to classify customer support tickets based on their descriptions.
+
+**Feature Extraction: TF-IDF**
+
+TF-IDF (Term Frequency-Inverse Document Frequency) was used to convert textual ticket descriptions into numerical feature vectors. It assigns importance to words based on their frequency within a document and their distribution across the dataset.
+
+Unigrams and bigrams were considered using the `ngram_range=(1, 2)` parameter.
+
+**Algorithms Selected**
+
+Two classification algorithms were implemented:
+
+1. Logistic Regression: Selected as the primary candidate because it is computationally efficient, supports multiclass classification and works effectively with sparse text features.
+2. Multinomial Naive Bayes: Selected as a comparison model because of its efficiency and suitability for text classification.
+
+**Model Architecture**
+
+The implementation uses Scikit-learn Pipelines to combine TF-IDF feature extraction and classification.
+
+**Prediction Process**
+
+A new ticket description is passed through the same preprocessing and feature extraction pipeline. The trained classifier then predicts the most likely ticket category.
+
+The final model will be selected based on its performance on unseen test data.
